@@ -21,4 +21,4 @@ print("type(nil)\t\t--> " .. '"' .. type(nil) .. '"')
 -- the values are.
 print('"nil"==nil\t\t--> ' .. tostring("nil"==nil))
 print('5 == "s"\t\t--> ' .. tostring(5=="s"))
-print('type(nil)=="nil"\t--> ' .. tostring(type(nil) == nil))
+print('type(nil)==nil\t--> ') .. tostring(type(nil) == nil) 
